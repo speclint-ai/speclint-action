@@ -2,6 +2,8 @@
 
 Automatically lint your GitHub issues for spec completeness before AI coding agents touch them — powered by [Speclint](https://speclint.ai).
 
+> **Speclint is open source.** The scoring engine and CLI are MIT-licensed at [github.com/speclint-ai/speclint](https://github.com/speclint-ai/speclint). This Action uses the hosted Speclint API for convenience — or self-host with `@speclint/core`.
+
 ## What it does
 
 Speclint analyzes every new or edited GitHub issue, scores it for completeness (0–100), posts a structured refined spec as a comment, and labels the issue as `agent_ready` or `needs-refinement` so your AI agents know whether to proceed.
